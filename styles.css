@@ -1,0 +1,122 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+}
+
+
+h1{
+  font-family: 'Karla';
+  padding: 30px 50px 5px 50px;
+}
+
+h2{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Karla';
+}
+
+h3{
+  font-family: 'Karla';
+  padding-left: 50px;
+  padding-right: 50px;
+  color: hsl(218, 22%, 67%);
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.top{
+  text-align: left;
+  background-color: white;
+  width: 800px;
+  height: 250px;
+  margin: 100px auto;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.h1top{
+  color: hsl(179, 62%, 43%);
+}
+.h2top{
+  color: hsl(71, 73%, 54%);
+}
+
+.bottomleft{
+  text-align: left;
+  background-color: hsl(179, 62%, 43%);
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  top: 250px;
+  left: 560px;
+}
+.h2left{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  color: hsl(204, 43%, 93%);
+}
+.h1left{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0;
+  color: hsl(204, 43%, 93%);
+}
+.hleft{
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  font-size: 20px;
+  color: hsl(204, 43%, 93%);
+  opacity: 35%;
+}
+.h3left{
+  color: hsl(204, 43%, 93%);
+}
+.button {
+  background-color: hsl(71, 73%, 54%);
+  width: 300px;
+  border: none;
+  color: hsl(204, 43%, 93%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Karla';
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 45px;
+  border-radius: 10px;
+  box-shadow: 10px;
+}
+.button:hover{
+  opacity: 90%;
+}
+
+.right{
+  text-align: left;
+  background-color: hsl(179, 62%, 43%);
+  opacity: 70%;
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+  position: absolute;
+  border-bottom-right-radius: 10px;
+  top: 250px;
+  right: 560px;
+}
+.h2right{
+  color: hsl(204, 43%, 93%);
+}
+.h3right{
+  opacity: 60%;
+  color: hsl(204, 43%, 93%);
+}
